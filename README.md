@@ -11,8 +11,8 @@ The goal is to create service for shorting URLs using FastAPI
 - POST /shortern - generates short_id for for URL im input
 - GET /{short_id} - redirects to URL associated with given short_id
 - GET /stats/{short_id} -returns clicks statistics of given short_id
-- PUT /short_id - updates existing short_id item
-- DELETE /short_id - deletes existing short_id item
+- PUT /{short_id} - updates existing short_id item
+- DELETE /{short_id{ - deletes existing short_id item
 
 ## Deployment
 
